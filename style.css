@@ -131,6 +131,35 @@ main > section {
     margin: 1.5rem 0;
 }
 
+/* feature sec tittle */
+.features {
+    gap: 140px;
+}
+
+#feature-sec-tittle {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.feature-card .feature-tittle {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+
+.feature-card {
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin: 30px 0;
+    border-radius: 8px;
+
+}
+
+
+
+
+
 /* some facts related style */
 .facts-container {
     display: grid;
@@ -219,6 +248,8 @@ main > section {
         justify-items: center;
     }
 }
+
+
 
 /* Medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px){
