@@ -44,7 +44,7 @@ main {
 }
 
 main > section {
-    margin-top: 120px;
+    margin: 120px 0;
 }
 
 .section-tittle {
@@ -129,6 +129,39 @@ main > section {
 
 .feature-descrip {
     margin: 1.5rem 0;
+}
+
+/* some facts related style */
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.fact-card {
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fact-num {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 5px 0 10px;
+}
+
+.fact-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+
+.fact-descrip {
+    max-width: 540px;
+    margin: 20px 0;
 }
 
 
